@@ -2,7 +2,7 @@
 
 플러터(Flutter)에서 스플래쉬 화면(Splash Screen)은 애플리케이션이 실행될 때 사용자가 첫 번째로 보게 되는 화면으로, 일반적으로 앱이 초기화되거나 로딩되는 동안 표시된다. 스플래쉬 화면은 앱의 로고나 브랜드를 보여주고, 앱의 초기 데이터를 로드하거나 리소스를 준비하는 동안 사용자를 기다리게 하는 데 사용된다.
 
-## 실행 과정
+## 1. 실행 과정
 <details>
 <summary>1. 패키지 설치</summary>
 <div markdown="1">
@@ -16,7 +16,7 @@
 <summary>2. flutter_native_splash.yaml 만들기</summary></summary>
 <div markdown="1">
 
- - 위 공식 문서의 READ ME 를 보면 이 파일의 예시가 있다. 여기서 image와 배경 색깔 등 커스텀 할 수 있다. 
+ - 위 공식 문서의 READ ME 를 보면 이 파일의 예시가 있다. flutter_native_splash.yaml 이 파일을 새로 만들어 주고, 내가 원하는 로고와 배경색깔을 바꿔서 커스텀 하면 된다.
   
 </div>
 </details> 
@@ -28,8 +28,10 @@
 
 </div>
 </details>
+
+ ## 2. 실행 화면
 <p align ="center">
- <img src = "https://github.com/user-attachments/assets/07993539-aa27-48c8-a730-d1114005251b">
+ <img src = "https://github.com/user-attachments/assets/74b3792a-f4ed-4e06-828e-1f54a6f7509f">
 </p>
 
 </br>
